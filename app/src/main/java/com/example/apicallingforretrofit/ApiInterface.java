@@ -30,7 +30,6 @@ public interface ApiInterface {
     //Parameters Key:-q
     //Parameters Value:-Laptop
     //Method Type:-GET
-
     @GET("products/search")
     Call<Product> getProduct(@QueryMap Map<String, String> map);
 
